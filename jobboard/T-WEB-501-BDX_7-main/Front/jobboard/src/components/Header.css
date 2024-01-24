@@ -1,0 +1,48 @@
+/* Header */
+.header {
+    display: flex;
+    justify-content: space-between; /* Répartit les éléments horizontalement */
+    align-items: center; /* Alignement vertical des éléments */
+    padding: 10px 20px;
+    background-color: #fff;
+    box-shadow: 0px 2px 15px rgba(0, 0, 0, 0.1); /* Ombre douce pour donner de la profondeur */
+    position: sticky;
+    top: 0;
+    z-index: 1000;
+}
+
+.home-button {
+    display: flex;
+    align-items: center; /* Assure que le logo est centré verticalement */
+    text-decoration: none;
+    color: inherit; /* Pour que le lien hérite de la couleur du texte parent (noir) */
+}
+
+.logo {
+    width: 150px; /* Exemple de taille, adaptez selon la taille de votre logo */
+    height: auto;
+    margin-left: 15px; /* Espacement entre le logo et le texte */
+}
+
+.login-button {
+    background-color: #007BFF; /* Bleu moderne */
+    color: #fff;
+    border: none;
+    padding: 10px 20px;
+    border-radius: 30px; /* Bords légèrement arrondis */
+    cursor: pointer;
+    transition: background-color 0.2s ease-in-out;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+.login-button:hover {
+    background-color: #0056b3; /* Assombris le bouton lors du survol */
+}
+.right-section {
+    display: flex;
+    align-items: center;
+}
+.Job-button{
+    margin-right: 15px;
+    font-size: 17px;
+}

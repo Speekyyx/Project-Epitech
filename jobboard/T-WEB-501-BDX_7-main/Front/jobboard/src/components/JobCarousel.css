@@ -1,0 +1,21 @@
+.carousel-wrapper {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: 20px 0;
+    margin-top: 100px;
+}
+
+.carousel-content {
+    display: flex;
+    gap: 20px;
+    overflow: hidden;
+}
+
+button {
+    background: none;
+    border: none;
+    font-size: 24px;
+    cursor: pointer;
+    padding: 0 10px;
+}
